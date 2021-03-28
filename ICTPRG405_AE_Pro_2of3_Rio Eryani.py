@@ -8,7 +8,7 @@ import urllib.request
 import sys
 
 # Step One: Check for main server connection. Loop until server is connected.
-"""
+
 try:
     if urllib.requests.get('http://10.12.15.56').ok:
         print("Main server is connected")
@@ -25,8 +25,8 @@ except:
     sys.exit()
 
 # Step Three: Check if txt file exist in file server.
-"""
-path = "/Users/rioeryani/Google Drive/Learning/TAFE/Scripting for Cyber Security/" # This file path is temporary to test code.
+
+path = "/Users/Administration/New_Customers" # given file path
 if os.path.isfile('filename.txt'):
     f = open("filename.txt", 'r') # open file to read.
     content = f.read()  # Display content of file.
