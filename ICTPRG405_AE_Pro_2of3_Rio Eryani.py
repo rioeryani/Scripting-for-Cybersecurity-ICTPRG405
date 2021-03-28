@@ -14,7 +14,7 @@ try:
         print("Main server is connected")
 except:
     print("Main server is NOT connected!")
-
+    sys.exit()
 
 # Step Two: Check for file server connection. Loop until server is connected.
 try:
